@@ -4,7 +4,7 @@ import Nav from '../component/shared/Nav/Nav';
 
 const MainLayout = () => {
     return (
-        <div>
+        <div className='max-w-[1366px] mx-auto'>
             <Nav></Nav>
             <Outlet></Outlet>
         </div>
