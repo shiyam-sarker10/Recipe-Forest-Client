@@ -143,7 +143,7 @@ const Nav = () => {
       </>
     );
     return (
-      <div className="flex md:justify-between md:items-center px-4 py-6 shadow-md">
+      <div className="flex md:justify-between md:items-center px-4 py-4 shadow-md">
         {/* image  */}
         <div
           className="
