@@ -143,7 +143,7 @@ const Nav = () => {
       </>
     );
     return (
-      <div className="flex md:justify-between md:items-center px-4 py-4 shadow-md">
+      <div className="flex md:justify-between md:items-center pmax-w-[1366px] px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 py-4 shadow-md">
         {/* image  */}
         <div
           className="
@@ -152,19 +152,23 @@ const Nav = () => {
           <img className="w-[175px] " src={logo} alt="" />
         </div>
 
-        
         {/* navlists */}
 
         <div className="hidden md:block">{navList}</div>
         {/* menu button */}
-        <button className="flex items-start md:hidden" onClick={() => setIsOpen(!isOpen)}>
+        <button
+          className="flex items-start md:hidden"
+          onClick={() => setIsOpen(!isOpen)}
+        >
           {isOpen ? (
             <img className="w-[25px] " src={cross} alt="" />
           ) : (
             <img className="w-[25px] " src={menu} alt="" />
           )}
         </button>
-        <div className={` ${isOpen ? "" : "hidden"}  md:hidden mx-auto`}>{navListResponsive}</div>
+        <div className={` ${isOpen ? "" : "hidden"}  md:hidden mx-auto`}>
+          {navListResponsive}
+        </div>
         {/* register  */}
         <div
           className="

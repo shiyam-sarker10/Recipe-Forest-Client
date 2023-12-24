@@ -10,5 +10,5 @@ body{
 .banner-gradient{
     background-attachment: fixed;
    
-    background-image: linear-gradient(to right, rgb(160, 96, 0),rgba(255,255,255,0)),url(./assets/Banner.jpg);
+    background-image: linear-gradient(to right, black,rgba(255,255,255,0)),url(./assets/Banner.jpg);
 }
