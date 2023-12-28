@@ -17,7 +17,7 @@ const Banner = () => {
       image:
         "https://uploads-ssl.webflow.com/5e86c7170f1ab21474c3f2a4/5ef1d04b4056011f67df2ed7_Natural%2Blight%2B-%2BFood%2BPhotography%2B-%2BFrenchly%2B-4365.jpg",
       authorImage: "author_image_1.jpg",
-      authorName: "Chef John Doe",
+      authorName: "John Doe",
       dateOfPost: "15 March 2023",
     },
     {
@@ -29,7 +29,7 @@ const Banner = () => {
       image:
         "https://thebusybaker.ca/wp-content/uploads/2018/03/easy-mushroom-risotto-fbigBEST.jpg",
       authorImage: "author_image_2.jpg",
-      authorName: "Chef Jane Smith",
+      authorName: "Jane Smith",
       dateOfPost: "20 April 2023",
     },
     {
@@ -41,7 +41,7 @@ const Banner = () => {
       image:
         "https://myheartbeets.com/wp-content/uploads/2020/07/indian-chickpea-stir-fry.jpg",
       authorImage: "author_image_3.jpg",
-      authorName: "Chef Alex Johnson",
+      authorName: "Alex Johnson",
       dateOfPost: "5 May 2023",
     },
     {
@@ -53,7 +53,7 @@ const Banner = () => {
       image:
         "https://fullofplants.com/wp-content/uploads/2021/11/sweet-potato-gnocchi-with-kale-lime-pesto-plant-based-vegan-dish-gluten-free-26.jpg",
       authorImage: "author_image_4.jpg",
-      authorName: "Chef Maria Rodriguez",
+      authorName: "Maria Rodriguez",
       dateOfPost: "12 June 2023",
     },
   ];
@@ -66,9 +66,7 @@ const Banner = () => {
             delay: 4000,
             disableOnInteraction: false,
           }}
-          pagination={{
-            clickable: true,
-          }}
+        
           modules={[Autoplay, Pagination, Navigation]}
           className="mySwiper"
         >
