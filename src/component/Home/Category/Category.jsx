@@ -737,11 +737,39 @@ const Category = () => {
                 className={`flex items-center justify-center  ${
                   idx == 0
                     ? "bg-gradient-to-b from-transparent to-sky-100"
-                    : idx == 1 ? "bg-gradient-to-b from-transparent to-green-100" :  idx == 2 ?"bg-gradient-to-b from-transparent to-red-100" : idx == 3 ? "bg-gradient-to-b from-transparent to-yellow-100" : idx == 4 ? "bg-gradient-to-b from-transparent to-amber-900/10" : idx == 5 ? "bg-gradient-to-b from-transparent to-amber-100" :""
+                    : idx == 1
+                    ? "bg-gradient-to-b from-transparent to-green-100"
+                    : idx == 2
+                    ? "bg-gradient-to-b from-transparent to-red-100"
+                    : idx == 3
+                    ? "bg-gradient-to-b from-transparent to-yellow-100"
+                    : idx == 4
+                    ? "bg-gradient-to-b from-transparent to-amber-900/10"
+                    : idx == 5
+                    ? "bg-gradient-to-b from-transparent to-amber-100"
+                    : ""
                 } h-[250px] w-[190px] rounded-3xl`}
               >
                 <div className="text-center space-y-6">
-                  <div className="">{category?.svg}</div>
+                  <div
+                    className={` ${
+                      idx == 0
+                        ? "drop-shadow-[0px_10px_8px_rgba(64,162,227,0.5)]"
+                        : idx == 1
+                        ? "drop-shadow-[0px_10px_8px_rgba(40,170,64,0.5)]"
+                        : idx == 2
+                        ? "drop-shadow-[0px_10px_8px_rgba(255,128,128,0.5)]"
+                        : idx == 3
+                        ? "drop-shadow-[0px_10px_8px_rgba(254,193,101,0.7)]"
+                        : idx == 4
+                        ? "drop-shadow-[0px_10px_8px_rgba(96,114,116,0.5)]"
+                        : idx == 5
+                        ? "drop-shadow-[0px_10px_8px_rgba(255,164,51,0.5)]"
+                        : ""
+                    } `}
+                  >
+                    {category?.svg}
+                  </div>
                   <h4 className="font-semibold text-xl">
                     {category?.category}
                   </h4>
