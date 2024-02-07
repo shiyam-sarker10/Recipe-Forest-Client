@@ -30,7 +30,7 @@ const {
             {foodTitle}
           </h1>
           <p className="text-black/60 text-xs md:text-sm lg:text-base">
-            {description.slice(1)}
+            {description}
           </p>
 
           {/* timer and form  */}
