@@ -16,7 +16,7 @@ const {
 } = recipe;
 
   return (
-    <div className="flex flex-col-reverse md:flex-row h-[80vh]  ">
+    <div className="flex flex-col-reverse md:flex-row h-[80vh]  lg:h-[550px] ">
       <div className="bg-[#e7fafe]  px-6 pb-6 md:p-6 lg:p-10 space-y-6 rounded-bl-3xl  rounded-br-3xl  md:w-1/2 md:rounded-tl-3xl  md:rounded-bl-3xl  md:rounded-br-none ">
         {/* hot Recipe  */}
         <div className="bg-white py-2 hidden  px-4 rounded-full md:flex items-center gap-2 w-max">
