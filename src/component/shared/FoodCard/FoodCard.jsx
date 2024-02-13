@@ -12,7 +12,7 @@ const FoodCard = ({ recipe }) => {
       authorName,
       dateOfPost,} = recipe
   return (
-    <div className="bg-gradient-to-t from-[#E7FAFE] to-[#E7FAFE]/40 px-4 pt-4 pb-8 w-[316px] space-y-6 rounded-2xl ">
+    <div className="bg-gradient-to-t from-[#E7FAFE] to-[#E7FAFE]/40 px-4 pt-4 pb-8 cursor-pointer w-[316px] space-y-6 rounded-2xl ">
       <div>
         <img
           className="w-[300px] h-[200px] rounded-xl object-cover"
